@@ -1,3 +1,7 @@
+#!/bin/sh
+# This file sets up mongodb for python in your environment
+# Author: Oyamo Brian oyamo.xyz@protonmail.com
+# You are free to modify this file or submit complaints
 python -m pip install pymongo
 #python3 -m pip install pymongo
 wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc |  apt-key add -
