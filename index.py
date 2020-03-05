@@ -87,5 +87,13 @@ student_details_collection.delete_many(age32_filter) # Guess What it deletes ; T
   we use drop() method
   eg student_details_collection.drop()
 '''
-
+# Updating records in a collection
+'''
+  we have to set the filter and the new values
+'''
+my_filter = {'Course' : 'Journalism'}
+new_values = {'$set' : { 'Course' : 'Broadcasting'}
+# Then we use update_one() and update_many() methods approproatley
+student_details_collection.update_all(my_filter, new_values)
+              
               
