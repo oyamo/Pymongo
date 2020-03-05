@@ -5,7 +5,7 @@ I have made a bash script that helps to setup mongodb on debian distros eg Ubunt
 
 To setup run
 ```bash
-sudo chmod u+x mongo-installer.sh
+sudo chmod u+x ./mongo-installer.sh
 sudo ./mongo-installer.sh
 ```
 
