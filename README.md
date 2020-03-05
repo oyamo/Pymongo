@@ -9,6 +9,7 @@ sudo chmod u+x ./mongo-installer.sh
 sudo ./mongo-installer.sh
 ```
 
+Open ```index.py``` in you favourite editor
 These are just the basics of getting started  with pymongo. Find more from  [The Official Documentation](https://api.mongodb.com/python/current/)
 
 Happy Coding!!!!!
