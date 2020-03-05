@@ -1,6 +1,6 @@
 #!/bin/python
 '''
-  first run the mongo-installer.sh 
+  first run the mongo-installer.sh provided in the root folder of this repo
   make sure the server deamon is running 
   check the status using 
   service mongod status 
